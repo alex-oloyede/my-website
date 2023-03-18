@@ -1,0 +1,116 @@
+body{
+    background-image: url(modern-background-with-lines.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* filter: blur(8px); */
+    background-color: rgb(35, 56, 49);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+h1{
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 0;
+    font-size: 800%;
+    line-height: 20%;
+    /* color: rgb(148, 255, 255); */
+    color: #66FCF1;
+    margin-left: auto;
+}
+.subs{
+    padding-top: 80px;
+}
+.subtitle{
+    font-size: 120%;
+    width: 100%;
+    /* height: 100%; */
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+hr{
+    border: 1px solid white;
+    max-width: 80%;
+}
+.navcon {
+    list-style-type: none;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(37, 37, 37, 0.5);
+    border-radius: 20px;
+}
+#navlist {
+    float: left;
+  }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    text-decoration: none;
+  }
+#name{
+    margin: 150px auto 0px auto;
+}
+nav{
+    display: flex;
+    font-size: 120%;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 0px;
+}
+.home{
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+#footcon{
+    list-style-type: none;
+}
+li b{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none; 
+}
+h2{
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 0;
+    font-size: 600%;
+    /* color: rgb(148, 255, 255); */
+    color: #66FCF1;
+    margin-left: auto;
+}
+
+/* javascript sticky nav */
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+/* .navcon{
+    position: sticky;
+    top: 0;
+} */
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+/* @media (prefers-color-scheme: dark)
+ canvas {
+    opacity: 0.7;
+} */
